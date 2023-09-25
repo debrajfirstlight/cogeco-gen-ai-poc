@@ -1,3 +1,6 @@
+pip install vertexai
+pip install google-cloud-aiplatform google-cloud-discoveryengine langchain==0.0.236 pydantic==1.10.8 typing-inspect==0.8.0 typing_extensions==4.5.0 --upgrade --user
+
 import streamlit as st
 import os
 import vertexai

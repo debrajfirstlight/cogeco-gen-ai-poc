@@ -50,7 +50,7 @@ if st.button("Retrieve Answer"):
 
     # Display the result without checking its type
     st.subheader("Answer:")
-    st.write(result[1:])
+    st.write(result[0]+result[1:].lstrip())
 
 
 
